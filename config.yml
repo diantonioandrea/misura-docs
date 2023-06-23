@@ -7,25 +7,23 @@ title: "misura"
 
 googleAnalytics: ""
 disablePathToLower: true
-enableGitInfo: false
+enableGitInfo: true
 disableKinds:
   - "taxonomy"
   - "taxonomyTerm"
 
-languages:
-  en:
-    languageName: English
-    contentDir: content.en
-    weight: 1
+menu:
+  after:
+    - name: "GitHub"
+      url: "https://github.com/diantonioandrea/misura"
+      weight: 1
 
 params:
   BookTheme: auto
   BookToC: true
-  # BookMenuBundle: /menu
   BookSection: docs
   BookRepo: 'https://github.com/diantonioandrea/misuraDocs'
-  BookDateFormat: 'January 2, 2006'
+  BookDateFormat: 'Monday, January 2, 2006'
   BookSearch: true
   BookComments: false
   BookPortableLinks: true
-  BookServiceWorker: true
