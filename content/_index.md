@@ -13,7 +13,6 @@ Python library providing effortless unit handling and currency conversion for sc
 
 **misura** is written in Python and developed by [Andrea Di Antonio](https://github.com/diantonioandrea).
 
-
 ## Acknowledgements
 
 ### Hugo, Hugo Book Theme
