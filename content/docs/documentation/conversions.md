@@ -13,12 +13,14 @@ type: docs
 misura.convert(converted: quantity, target: str, partial: bool = False, un_pack: bool = False) -> quantity
 ```
 
-The function `convert` takes a `quantity` object, converted, a string, `targets`, and two flags: `partial` and `un_pack`.
+The function `convert` takes a `quantity`[^1] object, converted, a string, `targets`, and two flags: `partial` and `un_pack`.
 
-- `qnt: quantity` is the quantity that needs to be converted.
+- `qnt: quantity`[^1] is the quantity that needs to be converted.
 - `targets: str` is the string of target units, the units that need to be matched after conversion.
 - `partial: bool` whether or not the conversion should be partial, e.g. `"m s-1" -> "km s-1"`.
 - `un_pack: bool` whether or not to (un)pack derived units during conversion.
+
+[^1]: Works with currencies, too.
 
 ## Unpacking
 
