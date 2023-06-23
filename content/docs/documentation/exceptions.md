@@ -17,3 +17,6 @@ type: docs
 - `PackError`: raised on errors during packing.
 - `UncertaintyComparisonError`: raised on comparing quantities with uncertainty.
 - `DefinitionError`: raised on errors during unit definition.
+- `OperationError`: raised on illegal operations with currencies.
+- `CurrencyPackingError`: raised on (un)packing currencies.
+- `MixingError`: raised on mixing quantities and currencies.

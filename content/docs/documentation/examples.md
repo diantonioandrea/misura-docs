@@ -57,6 +57,22 @@ The output is:
 3000.0 cm(3)
 ```
 
+## Currencies
+
+```python
+from misura.currencies import currency
+
+cur1 = currency(3, "USD")
+
+print(convert(cur1, "EUR"))
+```
+
+The output is:
+
+```
+2.74 EUR
+```
+
 ## Conversions, unpacking and packing
 
 ```python
