@@ -3,7 +3,7 @@ title: "Introduction"
 type: docs
 ---
 
-# misura's documentation
+# misura
 
 ## Introduction
 
