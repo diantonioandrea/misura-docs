@@ -7,7 +7,7 @@ title: "misura"
 
 googleAnalytics: ""
 disablePathToLower: true
-enableGitInfo: true
+enableGitInfo: false
 disableKinds:
   - "taxonomy"
   - "taxonomyTerm"
