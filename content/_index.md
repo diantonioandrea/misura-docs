@@ -13,6 +13,9 @@ Python library for easy unit handling and conversion for scientific & engineerin
 
 **misura** is written in Python and developed by [Andrea Di Antonio](https://github.com/diantonioandrea).
 
-## Hugo Book
+
+## Acknowledgements
+
+### Hugo, Hugo Book Theme
 
 This documentation has been brought to you thanks to [Hugo](https://gohugo.io) and the [Hugo Book Theme](https://github.com/alex-shpak/hugo-book).
