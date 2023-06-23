@@ -1,0 +1,7 @@
+# Hugo
+
+.hugo_build.lock
+
+# Others
+
+**/.DS_Store
