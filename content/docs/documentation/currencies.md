@@ -12,6 +12,10 @@ Quantities are defined as `currencies.currency(value: any, symbol: str = "")` ob
 `values` stands for the value of the currency itself, while `symbol` represents its code.  
 `currency(2, "EUR")` is a well-defined currency.
 
+## Rates
+
+Latest currency exchange rates can be found on [misura.diantonioandrea.com](https://misura.diantonioandrea.com/currencies/rates.json).
+
 ## Operations
 
 `currencies.currency` objects re-implement the following dunder methods, which are stricter versions:
