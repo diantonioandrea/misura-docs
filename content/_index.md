@@ -18,3 +18,9 @@ Python library providing effortless unit handling and currency conversion for sc
 ### Hugo, Hugo Book Theme
 
 This documentation has been brought to you thanks to [Hugo](https://gohugo.io) and the [Hugo Book Theme](https://github.com/alex-shpak/hugo-book).
+
+### FreecurrencyAPI
+
+The currency rates are being provided by [FreecurrencyAPI](https://freecurrencyapi.com)[^1].
+
+[^1]: **misura** is not to be intended as an alternative to *FreecurrencyAPI*, and it is **not** a source of currencies exchange rates.
