@@ -1,0 +1,23 @@
+name: Fetch Currencies Rates
+
+# Controls when the workflow will run
+on:
+  schedule:
+    - cron: '0 12 * * *'
+
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Fetch API Data
+        uses: JamesIves/fetch-api-data-action@v2.2.4
+        with:
+          endpoint: "https://api.freecurrencyapi.com/v1/latest?apikey="
+          configuration: '{ "method": "GET", "headers": {"Authorization": "Bearer ${{ secrets.API_KEY }}"} }'
+          save-location: "/content/currencies/"
+          save-name: "rates"
