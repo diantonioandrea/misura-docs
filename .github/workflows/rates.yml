@@ -23,7 +23,10 @@ jobs:
           save-name: 'rates'
       
       - name: Commit Changes
-        run: git commit -m "Updated rates"
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Updated rates"
         
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.6.0
