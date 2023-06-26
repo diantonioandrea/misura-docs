@@ -19,8 +19,11 @@ jobs:
         with:
           endpoint: ${{ format('{0}{1}', 'https://api.freecurrencyapi.com/v1/latest?apikey=', secrets.API_KEY) }}
           configuration: '{ "method": "GET" }'
+          save-location: 'content/currencies/'
+          save-name: 'rates'
       
-      - name: Upload new Rates
-        uses: actions/upload-artifact@v3.1.2
-        with:
-          path: 'content/currencies/rates.json'
+      - name: Commit Changes
+        run: git commit -m "Updated rates"
+        
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.6.0
