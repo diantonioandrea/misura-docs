@@ -19,5 +19,5 @@ jobs:
         with:
           endpoint: ${{ format('{0}{1}', 'https://api.freecurrencyapi.com/v1/latest?apikey=', secrets.API_KEY) }}
           configuration: '{ "method": "GET" }'
-          save-location: "/content/currencies/"
+          # save-location: "/content/currencies/"
           save-name: "rates"
