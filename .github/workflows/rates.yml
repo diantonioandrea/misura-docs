@@ -17,7 +17,7 @@ jobs:
       - name: Fetch API Data
         uses: JamesIves/fetch-api-data-action@v2.2.4
         with:
-          endpoint: ${{ format("{0}{1}", "https://api.freecurrencyapi.com/v1/latest?apikey=", ${{ secrets.API_KEY }}) }}
+          endpoint: ${{ format('{0}{1}', 'https://api.freecurrencyapi.com/v1/latest?apikey=', secrets.API_KEY) }}
           configuration: '{ "method": "GET" }'
           save-location: "/content/currencies/"
           save-name: "rates"
