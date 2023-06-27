@@ -1,6 +1,5 @@
 name: Fetch Currencies Rates
 
-# Controls when the workflow will run
 on:
   schedule:
     - cron: '0 12 * * *'
