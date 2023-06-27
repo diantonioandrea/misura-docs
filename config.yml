@@ -14,7 +14,7 @@ disableKinds:
 
 menu:
   after:
-    - name: "GitHub"
+    - name: "misura on GitHub"
       url: "https://github.com/diantonioandrea/misura"
       weight: 1
 
