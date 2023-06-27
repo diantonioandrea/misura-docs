@@ -7,7 +7,7 @@ type: docs
 
 # misura's documentation
 
-Python library for easy unit handling and conversion for scientific & engineering applications.
+Python library providing effortless unit handling and currency conversion for scientific and engineering purposes.
 
 ## Table of Contents
 
