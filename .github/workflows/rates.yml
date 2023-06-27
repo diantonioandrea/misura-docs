@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      - name: Remove old Rates
+      - name: Remove Old Rates and Commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -34,7 +34,7 @@ jobs:
           git add -A
           git commit -m "Updated rates"
         
-      - name: GitHub Push
+      - name: Push Changes
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.TOKEN }}
