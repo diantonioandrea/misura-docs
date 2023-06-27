@@ -2,4 +2,4 @@
 
 # [**misura**](https://github.com/diantonioandrea/misura)'s documentation site
 
-Documentation site for **misura**, a Python library for easy unit handling and conversion for scientific & engineering applications.
+Documentation site for **misura**, a Python library providing effortless unit handling and currency conversion for scientific and engineering purposes.
