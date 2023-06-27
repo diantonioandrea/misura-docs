@@ -18,6 +18,7 @@ Python library for easy unit handling and conversion for scientific & engineerin
 	- [Defaults](./units.md#defaults)
 	- [User defined units of measure](./units.md#user-defined-units-of-measure)
 - [Currencies](./currencies.md)
+	- [Available symbols](./currencies.md#available-symbols)
 	- [Rates](./currencies.md#rates)
 	- [Operations](./currencies.md#operations)
 - [Conversions, unpacking and packing](./conversions.md)
