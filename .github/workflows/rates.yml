@@ -12,6 +12,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      
+      - name: Remove old rates
+        run: git rm content/currencies/rates.json
 
       - name: Fetch API Data
         uses: JamesIves/fetch-api-data-action@v2.2.4
@@ -25,7 +28,8 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -a -m "Updated rates"
+          git add content/currencies/rates.json
+          git commit -m "Updated rates"
         
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.6.0
