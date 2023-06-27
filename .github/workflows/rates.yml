@@ -1,5 +1,6 @@
 name: Fetch Currencies Rates
 
+# Runs everyday at 0:00 and 12:00 UTC.
 on:
   schedule:
     - cron: '0 0,12 * * *'
@@ -13,6 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
+      # Removes the old version of rates.json.
       - name: Remove Old Rates and Commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -20,7 +22,8 @@ jobs:
           git rm content/currencies/rates.json
           git add -A
           git commit -m "Removed old rates"
-
+      
+      # Fetch the new rates.
       - name: Fetch API Data
         uses: JamesIves/fetch-api-data-action@v2.2.4
         with:
@@ -29,11 +32,13 @@ jobs:
           save-location: 'content/currencies'
           save-name: 'rates'
       
+      # Commit changes to the repository.
       - name: Commit Changes
         run: |
           git add -A
           git commit -m "Updated rates"
         
+      # Push every change made.
       - name: Push Changes
         uses: ad-m/github-push-action@v0.6.0
         with:
