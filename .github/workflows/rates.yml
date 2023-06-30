@@ -3,7 +3,7 @@ name: Fetch Currencies Rates
 # Runs everyday at 12:00 UTC.
 on:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '0 0,12 * * *'
 
   workflow_dispatch:
 
