@@ -14,8 +14,8 @@ Python library providing effortless unit handling and currency conversion for sc
 
 This documentation has been brought to you thanks to [Hugo](https://gohugo.io) and the [Hugo Book Theme](https://github.com/alex-shpak/hugo-book).
 
-### CurrencyAPI
+### fixer
 
-The currency rates are being provided by [CurrencyAPI](https://currencyapi.com)[^1].
+The currency rates are being provided by [Fixer](https://fixer.io)[^1].
 
-[^1]: **misura** is not to be intended as an alternative to *CurrencyAPI*, and it is **not** a source of currencies exchange rates.
+[^1]: **misura** is not to be intended as an alternative to *fixer*, and it is **not** a source of currencies exchange rates.

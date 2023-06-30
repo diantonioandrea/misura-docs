@@ -20,7 +20,7 @@ Quantities are defined as `currencies.currency(value: any, symbol: str = "")` ob
 - **AFN**	Afghan Afghani
 - **ALL**	Albanian Lek
 - **AMD**	Armenian Dram
-- **ANG**	NL Antillean Guilder
+- **ANG**	Netherlands Antillean Guilder
 - **AOA**	Angolan Kwanza
 - **ARS**	Argentine Peso
 - **AUD**	Australian Dollar
@@ -37,18 +37,19 @@ Quantities are defined as `currencies.currency(value: any, symbol: str = "")` ob
 - **BOB**	Bolivian Boliviano
 - **BRL**	Brazilian Real
 - **BSD**	Bahamian Dollar
+- **BTC**	Bitcoin
 - **BTN**	Bhutanese Ngultrum
 - **BWP**	Botswanan Pula
-- **BYN**	Belarusian ruble
 - **BYR**	Belarusian Ruble
+- **BYN**	New Belarusian Ruble
 - **BZD**	Belize Dollar
 - **CAD**	Canadian Dollar
 - **CDF**	Congolese Franc
 - **CHF**	Swiss Franc
-- **CLF**	Unidad de Fomento
+- **CLF**	Chilean Unit of Account (UF)
 - **CLP**	Chilean Peso
 - **CNY**	Chinese Yuan
-- **COP**	Coombian Peso
+- **COP**	Colombian Peso
 - **CRC**	Costa Rican Colón
 - **CUC**	Cuban Convertible Peso
 - **CUP**	Cuban Peso
@@ -66,7 +67,7 @@ Quantities are defined as `currencies.currency(value: any, symbol: str = "")` ob
 - **FKP**	Falkland Islands Pound
 - **GBP**	British Pound Sterling
 - **GEL**	Georgian Lari
-- **GGP**	Guernsey pound
+- **GGP**	Guernsey Pound
 - **GHS**	Ghanaian Cedi
 - **GIP**	Gibraltar Pound
 - **GMD**	Gambian Dalasi
@@ -85,7 +86,7 @@ Quantities are defined as `currencies.currency(value: any, symbol: str = "")` ob
 - **IQD**	Iraqi Dinar
 - **IRR**	Iranian Rial
 - **ISK**	Icelandic Króna
-- **JEP**	Jersey pound
+- **JEP**	Jersey Pound
 - **JMD**	Jamaican Dollar
 - **JOD**	Jordanian Dinar
 - **JPY**	Japanese Yen
@@ -113,7 +114,7 @@ Quantities are defined as `currencies.currency(value: any, symbol: str = "")` ob
 - **MMK**	Myanma Kyat
 - **MNT**	Mongolian Tugrik
 - **MOP**	Macanese Pataca
-- **MRO**	Mauritanian ouguiya
+- **MRO**	Mauritanian Ouguiya
 - **MUR**	Mauritian Rupee
 - **MVR**	Maldivian Rufiyaa
 - **MWK**	Malawian Kwacha
@@ -149,7 +150,7 @@ Quantities are defined as `currencies.currency(value: any, symbol: str = "")` ob
 - **SLL**	Sierra Leonean Leone
 - **SOS**	Somali Shilling
 - **SRD**	Surinamese Dollar
-- **STD**	São Tomé and Príncipe dobra
+- **STD**	São Tomé and Príncipe Dobra
 - **SVC**	Salvadoran Colón
 - **SYP**	Syrian Pound
 - **SZL**	Swazi Lilangeni
@@ -164,37 +165,25 @@ Quantities are defined as `currencies.currency(value: any, symbol: str = "")` ob
 - **TZS**	Tanzanian Shilling
 - **UAH**	Ukrainian Hryvnia
 - **UGX**	Ugandan Shilling
-- **USD**	US Dollar
+- **USD**	United States Dollar
 - **UYU**	Uruguayan Peso
 - **UZS**	Uzbekistan Som
-- **VEF**	Venezuelan Bolívar
+- **VEF**	Venezuelan Bolívar Fuerte
 - **VND**	Vietnamese Dong
 - **VUV**	Vanuatu Vatu
 - **WST**	Samoan Tala
 - **XAF**	CFA Franc BEAC
-- **XAG**	Silver Ounce
-- **XAU**	Gold Ounce
+- **XAG**	Silver (troy ounce)
+- **XAU**	Gold (troy ounce)
 - **XCD**	East Caribbean Dollar
-- **XDR**	Special drawing rights
+- **XDR**	Special Drawing Rights
 - **XOF**	CFA Franc BCEAO
 - **XPF**	CFP Franc
 - **YER**	Yemeni Rial
 - **ZAR**	South African Rand
-- **ZMK**	Zambian Kwacha
+- **ZMK**	Zambian Kwacha (pre-2013)
 - **ZMW**	Zambian Kwacha
-- **ZWL**	Zimbabwean dollar
-- **XPT**	Platinum Ounce
-- **XPD**	Palladium Ounce
-- **BTC**	Bitcoin
-- **ETH**	Ethereum
-- **BNB**	Binance
-- **XRP**	Ripple
-- **SOL**	Solana
-- **DOT**	Polkadot
-- **AVAX** Avalanche
-- **MATIC** Matic Token
-- **LTC**	Litecoin
-- **ADA**	Cardano
+- **ZWL**	Zimbabwean Dollar
 
 ## Rates
 
