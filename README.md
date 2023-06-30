@@ -16,6 +16,6 @@ This documentation has been brought to you thanks to [Hugo](https://gohugo.io) a
 
 ### fixer
 
-The currency rates are being provided by [Fixer](https://fixer.io)[^1].
+The currency rates are being provided by [fixer](https://fixer.io)[^1].
 
 [^1]: **misura** is not to be intended as an alternative to *fixer*, and it is **not** a source of currencies exchange rates.
