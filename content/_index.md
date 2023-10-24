@@ -13,6 +13,10 @@ Python library providing effortless unit handling and currency conversion for sc
 
 **misura** is written in Python and developed by [Andrea Di Antonio](https://github.com/diantonioandrea).
 
+## Notices
+
+Due to **misura** being just a fun project, currencies updates occur weekly.
+
 ## Acknowledgements
 
 ### Hugo, Hugo Book Theme
