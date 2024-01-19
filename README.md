@@ -1,4 +1,5 @@
 [![Fetch Currencies Rates](https://github.com/diantonioandrea/misuraDocs/actions/workflows/rates.yml/badge.svg)](https://github.com/diantonioandrea/misuraDocs/actions/workflows/rates.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e9791e23-2b77-49bb-bd2e-b8d552b5a298/deploy-status)](https://app.netlify.com/sites/thriving-entremet-b6f30a/deploys)
 
 # [**misura**](https://github.com/diantonioandrea/misura)'s documentation site
 
